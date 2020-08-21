@@ -1,0 +1,224 @@
+/* 菜单管理 */
+.rightTable,.menuTable {
+	width: 100%;
+	font: 12px arial;
+	color: #32326A;
+	background: #fff;
+}
+
+.rightTable1,.menuTable1 {
+	width: 100%;
+	font: 12px arial;
+	color: #32326A;
+	background: #fff;
+	z-index: 9999;
+	position: fixed;
+}
+
+.buttbar {
+	background: url("../../images/main/bar.gif") no-repeat scroll 0 -1000px
+		transparent;
+	padding-left: 6px;
+}
+
+.buttbar-ct {
+	background: url("../../images/main/bar.gif") no-repeat scroll right
+		-1000px transparent;
+	padding-right: 6px;
+}
+
+.buttbar-overflow {
+	background: url("../../images/main/bar.gif") repeat-x scroll 0 -1000px
+		transparent;
+}
+
+.buttbar-nowrap {
+	height: 29px;
+	padding: 4px 0 0;
+	overflow: hidden;
+	white-space: nowrap;
+}
+/*.buttbar-nowrap .Wdate{margin-right:10px;}*/
+.buttbar-nowrap a {
+	font: 12px arial;
+	font-weight: normal;
+	/*vertical-align: text-bottom;*/
+	vertical-align: middle;
+	line-height: 24px;
+	text-decoration: none;
+	text-decoration: none;
+	-moz-user-select: none;
+	color: #005588;
+	cursor: pointer;
+	display: inline-block;
+	height: 24px;
+	line-height: 24px;
+	border: 0 none;
+	margin-left: 3px;
+	margin-right: 10px;
+}
+
+.buttbar-nowrap a:hover {
+	color: #63B8EB;
+}
+
+.buttbar-nowrap img {
+	font-size: 12px;
+	font-weight: normal;
+	vertical-align: text-bottom;
+	border: 0 none;
+}
+
+.buttbar-nowrap b {
+	white-space: nowrap;
+	-moz-user-select: none;
+	display: inline-block;
+	font-size: 12px;
+	font-weight: normal;
+	height: 24px;
+	line-height: 20px;
+	text-decoration: none;
+	vertical-align: middle;
+}
+
+.tabTitleBg {
+	background: url('../../images/main/fhbg.gif') repeat-x scroll center
+		bottom #FAFAFA;
+	-moz-border-bottom-colors: none;
+	-moz-border-left-colors: none;
+	-moz-border-right-colors: none;
+	-moz-border-top-colors: none;
+	border-color: #CCCCCC #CCCCCC -moz-use-text-color;
+	border-image: none;
+	border-style: solid solid none;
+	border-width: 1px 1px 0;
+	overflow: hidden;
+	position: relative;
+	height: 27px;
+}
+/* mapbox */
+.mapbox {
+	padding: 10px;
+	border: 1px solid #aaa;
+	position: relative;
+	zoom: 1;
+}
+
+.mapbox .btnmx {
+	display: inline-block;
+	width: 60px;
+	height: 20px;
+	line-height: 20;
+	overflow: hidden;
+	position: absolute;
+	left: 10px;
+	top: 2px;
+	z-index: 10;
+	background: url(../../images/other/icontab.png) no-repeat 0 0;
+}
+.mapbox .btnmx1 {
+	display: inline-block;
+	width: 60px;
+	height: 20px;
+	line-height: 20;
+	overflow: hidden;
+	position: absolute;
+	left: 10px;
+	bottom: 2px;
+	z-index: 10;
+	background: url(../../images/other/icontab1.png) no-repeat 0 0;
+}
+/*.maplis{zoom:1;clear:both;}
+.maplis .maplis01{display:inline-block;}
+.maplis .maplis01{*display:inline;}*/
+/* ulLayOut */
+.ulLayOut {
+	margin: 0;
+	padding: 0;
+}
+
+.ulLayOut li {
+	display: inline-block;
+	margin-right: 10px;
+}
+/* input button */
+.btn-search,.btn-view,.btn-yh,.btn-operate,.btn-print {
+	display: inline-block;
+	border: none;
+	width: 56px;
+	height: 22px;
+	text-indent: 999em;
+	overflow: hidden;
+	margin-right: 5px;
+	cursor: pointer;
+}
+
+.btn-search {
+	background: url(../../images/main/query.png) no-repeat 0 0;
+}
+
+.btn-view {
+	background: url(../../images/main/graph.png) no-repeat 0 0;
+}
+
+.btn-yh {
+	background: url(../../images/main/opti.png) no-repeat 0 0;
+}
+
+.btn-operate {
+	background: url(../../images/main/operate.png) no-repeat 0 0;
+}
+
+.btn-print {
+	background: url(../../images/main/print.png) no-repeat 0 0;
+}
+
+#beginTime {
+	margin-right: 5px;
+}
+
+#endtime,#endTime,#staffNo,#param_staffNo,#currenttimeId {
+	margin-right: 5px;
+}
+
+.buttbar-nowrap .btn-search {
+	
+}
+
+.buttbar-nowrap select {
+	margin-right: 5px;
+}
+/* oNum */
+.oNum {
+	border-collapse: collapse;
+	border-spacing: 0;
+	table-layout: fixed;
+}
+
+.oNum th,.oNum td {
+	border: none;
+	font-weight: normal;
+}
+
+.oNum th {
+	background: #d8d8d8;
+	padding: 8px;
+	font-weight: bold;
+}
+
+.oNum .sep td {
+	padding: 4px 8px;
+}
+
+.oNum th,.oNum .sep td {
+	border: 1px solid #aaa;
+}
+
+.dicatorsTable {
+	min-height: 200px;
+	margin: 0 auto;
+}
+
+.erow1 {
+	background: none repeat scroll 0 0 #F7F7F7;
+}

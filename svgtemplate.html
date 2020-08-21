@@ -1,0 +1,79 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+	<head>
+	    <title>海油电缆SVG</title>
+	    
+		<meta http-equiv="pragma" content="no-cache">
+		<meta http-equiv="cache-control" content="no-cache">
+		<meta http-equiv="expires" content="0">
+		
+		<script type="text/javascript" src="jquery-1.8.3.min.js"></script>
+		<script type="text/javascript" src="jquery-ui.js"></script>
+		<script type="text/javascript" src="singleLineTemplate.js"></script>
+		<script type="text/javascript" src="ajaxtool.js"></script>
+		
+		<link rel="stylesheet" href="jquery-ui.min.css" type="text/css"></link>
+		<link rel="stylesheet" href="common.css" type="text/css"></link>
+	</head>
+  
+<body onload="template.load();" style="padding:0px auto;margin:0px auto;font: 12px arial;" class="svgTemplate">
+	<table class="rightTable1" cellspacing="0" cellpadding="0">
+		<tr>
+			<td height="33">
+				<!-- ToolBar -->
+				<div class="buttbar">
+	            	<div class="buttbar-ct">
+	                	<div class="buttbar-overflow">
+	                		<div class="buttbar-nowrap">
+	                			<div style="float:left;">
+	                				<a href="javascript:;" id="bt_setup">
+										<img src="icon038a6.png" />
+	                					<b>设置</b>
+	                				</a>
+	                				<span style="padding-left:50px;">位置：</span>
+	                				X <input type="text" id="c_x" disabled="disabled" style="width:50px;" class="text ui-widget-content ui-corner-all" />&nbsp;
+	                				Y <input type="text" id="c_y" disabled="disabled" style="width:50px;" class="text ui-widget-content ui-corner-all" />&nbsp;
+	                				<span>长</span> <input type="text" id="c_length" disabled="disabled" style="width:50px;" class="text ui-widget-content ui-corner-all" />&nbsp;
+	                				<input id="bt_turn" value="旋转" type="button" disabled="disabled"/>
+	                				<span style="padding-left:30px;">关联：</span>
+									<select id="temp_resultList" style="display:none;">
+										<option>1号机组</option>
+									</select>
+									<select id="c_componentList" disabled="disabled" class="text ui-widget-content ui-corner-all" style="min-width: 160px;">
+									</select>
+									<span id="text_componentNumber" style="display:none;">
+										<span style="padding-left:30px;">编号：</span>
+										<input id="c_componentNumber" type="text" class="text ui-widget-content ui-corner-all" maxlength="2" style="width:50px;"/>
+									</span>
+									<span id="unit_Radio" style="display:none;">
+										<span style="padding-left:30px;">单位：</span>
+										<input id="radio_show" value="show" checked="checked" type="radio" name="unitRadio"/><label for="radio_show">显示</label>
+										<input id="radio_hide" value="hide" type="radio" name="unitRadio"/><label for="radio_hide">隐藏</label>
+									</span>
+								</div>
+	                		</div>
+	                	</div>
+	            	</div>
+	        	</div>
+			</td>
+		</tr>
+	</table>
+
+	<embed style="margin-top:33px;transform: matrix(1, 0, 0, 1, 0, 0); transition: transform 1000ms ease-in-out 0s;" originalDocument="true"
+	src="singleLine.svg" type="image/svg+xml" pluginspage="http://www.adobe.com/svg/viewer/install/" id="embedNode"/>
+	
+	<!-- Dialog -->
+	<div class="dialog-form" style="display:none;">
+		<table>
+			<tr height="30">
+				<td align="right">宽度：</td>
+				<td><input type="text" id="templateWidth" class="text ui-widget-content ui-corner-all" maxlength="4" style="width: 65px;"/></td>
+				<td>&nbsp;</td>
+				<td>&nbsp;</td>
+				<td align="right">高度：</td>
+				<td align="right"><input type="text" id="templateHeight" class="text ui-widget-content ui-corner-all" maxlength="4" style="width: 65px;"/></td>
+			</tr>
+		</table>
+	</div>
+</body>
+</html>
